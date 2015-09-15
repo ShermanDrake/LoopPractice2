@@ -1,142 +1,33 @@
-var tripleFive = function() {
+var animals = ['rat', 'cat', 'butterfly', 'marmot', 'ocelot']
 
-for(var i=0; i < 3; i++) {
+// for (var i = 0; i < animals.length; i++) {
 
-	console.log("Five!")
-	console.log("\n")
-
-	}
-
-}
-tripleFive()
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// angular.module('exModule', []);
-// angular.module('exModule');
-// angular.module('exModule').controller('mainController', ['$scope', function($scope){
-
-// $scope.submitshow = true;
-// $scope.clicked = false;
-// $scope.textboxVisible = false;
-// $scope.textentryvisible = false;
-// $scope.clickcounter = 0
-// $scope.textcontent = '';
-// $scope.textarea = true;
-
-
-// $scope.imageclick = function(event){
-// 		$scope.clickcounter++
-// 		if ($scope.clickcounter === 1){
-// 		$scope.clicked = true;
-// 		$scope.textboxVisible = true;
-//       	$scope.x = event.offsetX; 
-//         $scope.y = event.offsetY;
-//         $scope.textX = (event.offsetX + 100);}
-
-        
-//         }
-
-// $scope.submit = function(event){
-// 	$scope.textboxVisible = true;
-// 	$scope.submitshow = false;
-// 	$scope.textentryvisible = true;
-// 	$scope.textarea = false;
-
-// }        
-
-// $scope.cancel = function(event){
-// 	$scope.clickcounter = -1;
-// 	$scope.clicked = false;
-// 	$scope.textboxVisible = false;
-// 	$scope.textcontent = '';
-// 	$scope.textentryvisible = false;
-// 	$scope.textarea = true;
-
-
+// 	console.log(animals[i]);
 // }
 
-// $scope.pointerClick = function(event) {
-// 		$scope.clicked = false;
+// for (var i = 0; i < animals.length-1; i++) {
 
-//         }
-// $scope.textbox = function(event) {
-// 		$scope.textboxVisible = false;
-// 		$scope.textentryvisible = true;
+// 	console.log(animals[i]);
+// }
 
+// for (var i = 0; i < animals.length; i+=2) {
 
-// }        
+// 	console.log(animals[i]);
+// }
 
-// }])
-// $scope.setactiveindex = function($index){
-// 		$scope.activeindex = $index;
-// 	}
-// 	$scope.isactiveindex = function($index){
-// 		return ($scope.activeindex === $index);
-// 	}
-// 	$scope.setactiveindex2 = function($index){
-// 		$scope.activeindex2 = $index;
-// 	}
-// 	$scope.isactiveindex2 = function($index){
-// 		return ($scope.activeindex2 === $index);
-// 	}
-// 	$scope.setactiveindex3 = function($index){
-// 		$scope.activeindex2 = -2;
-// 		$scope.activeindex = -2;
-// 	}
+// for (var i = animals.length; i > 0; i --) {
+
+// 	console.log(animals[i]);
+// }
+
+for (var i = 0; i < animals.length; i++) {
+
+console.log(animals[i]);
+
+if (i > 0 && i < animals.length -1) {
+
+console.log(animals[i]);
+}
+}
 
 
-
-// var x = event.clientX;     // Get the horizontal coordinate
-// var y = event.clientY;     // Get the vertical coordinate
-
-// <!--  -->
